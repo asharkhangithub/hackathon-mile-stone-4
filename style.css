@@ -1,0 +1,71 @@
+body{
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: rgb(20, 112, 149);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+form{
+    max-width:600px ;
+    margin: auto;
+    background-color: rgb(89, 191, 231);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+fieldset{
+    border: 2px solid #3498bd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input,textarea{
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #3498bd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(20, 112, 149);
+    color: white;
+    border: 1px solid #1c8cb5;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    /* font-size: 18px; */
+}
+
+button:hover{
+    background-color: #3498bd;
+}
+#resumeoutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #1c8cb5;
+    border-radius: 8px;
+    background-color: rgb(20, 112, 149);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resumeoutput h2{
+    color: white;
+}
